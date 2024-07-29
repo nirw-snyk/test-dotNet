@@ -6,13 +6,14 @@
 <ItemGroup>
 <EmbeddedResource Include="OrderXml.xml">
 <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-</Embedded Resource>
+</EmbeddedResource>
 </ItemGroup>
 <ItemGroup>
 <PackageReference Include="Autofac" Version="[4.9.2,)" />
 <PackageReference Include="Common.Logging" Version="[3.4.1]" />
 <PackageReference Include="CommSec Dependencies.UnitTesting" Version="1.0.297" />
-<PackageReference Include="CommSec. Library.Configuration" Version="2.4.1950" /> ‹PackageReference Include="CommSec.Library.Logging-NUnit" Version="2.0.2787" />
+<PackageReference Include="CommSec. Library.Configuration" Version="2.4.1950" /> 
+<PackageReference Include="CommSec.Library.Logging-NUnit" Version="2.0.2787" />
 <PackageReference Include="FluentValidation" Version="[8.2.8]" />
 <PackageReference Include="NSubstitute" Version="[3.1.0]" />
 </ItemGroup>
@@ -23,3 +24,4 @@
 <PackageReference Include="Microsoft. Extensions.Configuration" Version="[8.0.0]" />
 <PackageReference Include="Newtonsoft.json" version="［13.8.2,23.1.8）" />
 </ItemGroup>
+</Project>
