@@ -5,7 +5,7 @@
 </PropertyGroup>
 <ItemGroup>
 <EmbeddedResource Include="OrderXml.xml">
-<CopyToOutputDirectory>Never</CopyTcOutputDirectory>
+<CopyToOutputDirectory>Never</CopyToOutputDirectory>
 </Embedded Resource>
 </ItemGroup>
 <ItemGroup>
