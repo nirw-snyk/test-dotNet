@@ -1,0 +1,25 @@
+‹?xml version="1.0" encoding="utf-8"?>
+<Project saka"Microsoft.NET.sdk">
+< PropertyGroup>
+< TargetFrameworks>net8.0;net48</TargetFrameworks>
+</PropertyGroup>
+< ItemGroup>
+<EmbeddedResource Include="OrderXm1.xm1">
+‹CopyToOutputDirectory>Never</CopyTcOutputDirectory>
+< /Embedded Resource>
+</ItemSroup>
+<ItemGroup>
+‹ PackageReference Include="Autofac" Version="[4.9.2,)" /›
+«PackageReference Include="Common.Logging" Version="[3.4.1]" />
+‹PackageReference Include="CommSec Dependencies.UnitTesting" Version="1.0.297" /›
+‹PackageReference Include="CommSec. Library.Configuration" Version="2.4.1950" /> ‹PackageReference Include="CommSec.Library.Logging-NUnit" Version="2.0.2787" />
+‹PackageReference Include="FluentValidation" Version="[8.2.8]" />
+‹PackageReference Include="NSubstitute" Version="[3.1.0]" /›
+sintensroup>
+<ItemGroup Condition="''$(TargetFramework)' == 'net8.9'">
+‹PackageReference Include="Microsoft.AspNet.WebApi,Client" Version="[5.2.7]" /›
+‹PackageReference Include="System.ComponentModel TypeConverter" Version="[4.3.0]" />
+‹PackageReference Include="System.Diagnostics. TraceSource " Version="[4.3.0]" />
+‹PackageReference Include="Microsoft. Extensions.Configuration" Version="[8.0.0]" /›
+<PackageReference Include="Mentonsoft.ason" version="［13.8.2,23.1.8）" />
+</ItemGroup>
